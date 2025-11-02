@@ -574,7 +574,7 @@ main { overflow-x: hidden; }
 .about { padding-block: var(--section-padding); }
 
 .about-banner {
-  max-width: 500px;
+  max-width: 600px;
   margin-inline: auto;
   margin-bottom: 80px;
 }
@@ -1249,7 +1249,7 @@ textarea.input-field {
 
   .about {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     align-items: center;
     gap: 30px;
   }
@@ -1358,6 +1358,6 @@ textarea.input-field {
    * ABOUT
    */
 
-  .about-banner { max-width: 450px; }
+  .about-banner { max-width: 550px; }
 
 }
